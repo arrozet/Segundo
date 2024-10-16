@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82BBE2A8-157B-6D67-D9D3-39B4E90303FF" name="USUARIO_DEBATE">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:02:56 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_codigo" id="9E4CE0C4-35BA-9BF6-BF77-5E933FC94DAA">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:02:56 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CBFF55D-5810-E68C-30B9-AF86438187B7" referredColumn="2AAAE6F7-168B-174A-EC12-7FD7E5FC8153"/>
+</associations>
+</Column>
+<Column name="DEBATE_codigo" id="99D037F8-64AB-1591-6D84-F2286E3D3A4B">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:02:56 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25F69363-9766-4BD4-16AE-F7D66246A703" referredColumn="8EA0D1C4-5613-EBCE-6736-6BA031B97B64"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56C1881C-6C59-7EDE-BC7E-F327E53C9BCE" name="USUARIO_DEBATE_PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:02:56 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E4CE0C4-35BA-9BF6-BF77-5E933FC94DAA"/>
+<colUsage columnID="99D037F8-64AB-1591-6D84-F2286E3D3A4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8968B657-DA40-78D2-BD2F-B63A098FB741" name="USUARIO_DEBATE_USUARIO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:02:56 UTC</createdTime>
+<generatorID>0C270A23-85D9-22A3-EB92-8C3F5F32A287</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E4CE0C4-35BA-9BF6-BF77-5E933FC94DAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39E80F04-E9A9-0A39-68BE-69EB294ABEDE" name="USUARIO_DEBATE_DEBATE_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:02:56 UTC</createdTime>
+<generatorID>0C270A23-85D9-22A3-EB92-8C3F5F32A287</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99D037F8-64AB-1591-6D84-F2286E3D3A4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,5 @@
+fichero1.txt 512
+fichero2.txt 750
+fichero3.txt 2000
+fichero4.txt 300
+fichero5.txt 3000

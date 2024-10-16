@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EQUIPO" directorySegmentName="seg_0" id="5B3A479E-1119-ABAE-A964-A01B9E61363D">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<schemaObject>16A2A1D2-B944-F059-954C-50386F298A39</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F5ACB3E3-4F6F-7A6E-EC04-5AB70637240B</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OBJETIVOS" id="0BDFFB93-E88A-651C-AF31-295A79DFBB35">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOTO_OFICIAL" id="0C9E2570-281F-99AF-7935-3495194443EA">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODELO_MOTO" id="0DF55164-B45B-CDB9-BD58-0E15B4EFB081">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION_WEB" id="2F587C24-167E-97EB-E85B-D847375D8125">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLEADO_CODIGO" id="5A35A4DF-897E-626A-135D-430F430C7FE9">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOGO" id="6A6D0B77-70B6-3FCC-A3F1-77601A6119B4">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="955F49BA-8986-B716-65E9-D2C242DD9F77">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION_POSTAL" id="9AE62C95-94D0-7B09-818E-5225F4E6745D">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EQUIPO__IDX" id="0B50B6E0-852E-2077-8F62-3A7A87F01B5C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<schemaObject>16A2A1D2-B944-F059-954C-50386F298A39</schemaObject>
+<segment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EQUIPO_PK" id="EE9118B4-A668-C3A4-9200-940E8E7E7008">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<schemaObject>16A2A1D2-B944-F059-954C-50386F298A39</schemaObject>
+<segment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EQUIPO_EMPLEADO_FK" id="DD3978E3-B849-8229-1C06-59EF426E3554">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000833714C00006$$" id="AB35DD33-3FCF-F190-29D1-4225AAEBA366">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>FOTO_OFICIAL</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000833714C00007$$" id="FE2FC0EA-E382-C138-3EF0-446C2768B7B0">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>LOGO</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EQUIPO_PK" id="0EB9BF0A-EF15-FE72-85F0-18486AF4281B">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:27 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<segment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+<existingIndex>EE9118B4-A668-C3A4-9200-940E8E7E7008</existingIndex>
+<indexSegment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

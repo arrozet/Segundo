@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4412DBDF-5B95-D979-0571-2DBA3AF2AE5B" name="TEMA">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:02:56 UTC</createdTime>
+<generatorID>5FF85415-71B0-DFDD-03C3-32AE64269F02</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="DB44EF0B-2E57-E9BB-729F-9C5374DBFEA4">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:02:56 UTC</createdTime>
+<generatorID>B7802738-6293-D57D-6237-205C3899B753</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="ED494427-FD07-5254-7A87-5B538F62982C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:02:56 UTC</createdTime>
+<generatorID>A01F3B85-AA30-C64B-02D8-902FFE7333C9</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="2A8108C9-741C-7747-7223-7E599B90B99D">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:02:56 UTC</createdTime>
+<generatorID>A27D1F06-0D1B-0A41-3BC8-0F176AE3DD35</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81F5F242-77D6-4498-C29A-F3839C1F2F1F" name="TEMA_PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:02:56 UTC</createdTime>
+<generatorID>B483E2D7-D709-D1D0-8CAD-DDA3AE9C77BB</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB44EF0B-2E57-E9BB-729F-9C5374DBFEA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

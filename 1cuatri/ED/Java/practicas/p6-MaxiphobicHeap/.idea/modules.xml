@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/p6.iml" filepath="$PROJECT_DIR$/.idea/p6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prMaxiphobicHeap/prMaxiphobicHeap.iml" filepath="$PROJECT_DIR$/prMaxiphobicHeap/prMaxiphobicHeap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prMonticuloMaxifobico/prMonticuloMaxifobico.iml" filepath="$PROJECT_DIR$/prMonticuloMaxifobico/prMonticuloMaxifobico.iml" />
+    </modules>
+  </component>
+</project>

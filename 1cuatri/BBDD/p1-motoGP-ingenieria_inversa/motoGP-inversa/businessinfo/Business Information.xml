@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="A4C2A9C9-5E16-B51A-4ECC-DE5B210668E4">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:11:24 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

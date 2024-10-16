@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ACTO_PILOTO" directorySegmentName="seg_0" id="D75FB2E5-B9F9-237A-0978-B59E1EE3C94D">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:24 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<schemaObject>16A2A1D2-B944-F059-954C-50386F298A39</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F5ACB3E3-4F6F-7A6E-EC04-5AB70637240B</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PILOTO_NOMBRE" id="9497ECA3-F369-24D8-7C8D-4E145F4F12DA">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTO_PUBLICO_FECHA" id="EC6E1290-A46F-D2AF-7C89-4574A1914768">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ACTO_PILOTO_PK" id="C98381DF-CD0D-EA89-31F3-936C272EC06B">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<schemaObject>16A2A1D2-B944-F059-954C-50386F298A39</schemaObject>
+<segment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ACTO_PILOTO_PILOTO_FK" id="2A51C171-9ED9-25F4-48ED-D5B6AE548D23">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ACTO_PILOTO_ACTO_PUBLICO_FK" id="661DF4B4-C854-C28B-C3DF-CE7AA32BEF55">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACTO_PILOTO_PK" id="36C9557C-19C4-1BFC-B9D5-3D4376A62A4E">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:27 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<segment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+<existingIndex>C98381DF-CD0D-EA89-31F3-936C272EC06B</existingIndex>
+<indexSegment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ACTO_PILOTO" directorySegmentName="seg_0" id="D79B8949-D021-3A01-F1C6-B943FE5598F3">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>FD8C66D3-5F8D-8221-C1FB-A5B264A9B0D1</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>INVITADO</nameOnSource>
+<nameOnTarget>ASISTE_A</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>98CB92D6-7AC2-A39A-0E6E-145FA918516D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D42BD9A1-58D3-EBC9-6AD0-4A84FEFC8C05</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USUARIO_TEMA-MODERACION" directorySegmentName="seg_0" id="057A18BA-B025-D947-063A-C23D311B00EA">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:42:10 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>MODERA</nameOnSource>
+<nameOnTarget>ES MODERADO POR</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>46ED089C-3671-CA48-B1A7-1AB5227D48E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5FF85415-71B0-DFDD-03C3-32AE64269F02</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

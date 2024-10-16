@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8ACBCABC-50AB-495D-0C6D-A6BE2FD76FF3" name="TIEMPOS">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>083D36D7-4FF2-7B2F-856F-5A10CD26CD6E</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vuelta" id="A05FDBB3-2C79-3AE5-B897-C74D91B85D7D">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>DA6A3411-E53E-7861-D8AB-6F58A3DE8358</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiempo" id="3C6068C2-B3C7-74AE-6819-28E17FC15445">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>9793DDE3-92F0-B9B9-B592-1F371099359B</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="60794FA0-35B8-0216-B6E6-1F1AB812DFC2">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<generatorID>18E3E727-3740-72F8-E58C-A37A593E64CB</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>0B6FBE80-6B84-D489-2C16-5407BB69C2D8</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<referedAttribute>EC64A992-536C-BEC7-3F8F-14B63855E1B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="D28ED62A-EEE3-81F3-2EB2-9C7D40E49BCA">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<generatorID>8812C379-AE38-EE70-5B5B-1B70BE4C3B5C</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>EF737F45-560A-B6A6-0524-EC9A80B7CEE3</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<referedAttribute>935582C7-4D23-7376-10E5-4F8F25EF0A5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20A03A7A-3F2F-AD54-55A1-9A0E369CAD34" name="TIEMPOS PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>80F7FD01-49F4-B29A-6F2B-C718AE49A3B3</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A05FDBB3-2C79-3AE5-B897-C74D91B85D7D</attributeRef>
+<attributeRef>60794FA0-35B8-0216-B6E6-1F1AB812DFC2</attributeRef>
+<attributeRef>D28ED62A-EEE3-81F3-2EB2-9C7D40E49BCA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

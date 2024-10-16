@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B65F1AC-EBB5-0A47-6AE9-6E983756BDB5" name="ACTO_PUBLICO">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>98CB92D6-7AC2-A39A-0E6E-145FA918516D</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha" id="1652FBF5-E92B-8391-6364-9DBE7859A7FC">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>380A5DE2-6B2A-124D-0646-39FA41D3E981</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="6B0DFE3F-108C-4781-E0F3-8B8FF12989A5">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>2B8EC72B-104E-CDD5-E6A6-4390CD35D58F</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="9CE18911-268F-EE9A-464F-931CB450E66C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>1BB8303B-C980-B8BD-0260-7094F7ADF801</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="persona_contacto" id="30FA72EB-7AB8-1D27-A637-29FC472A7D74">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>F00E0D11-D2CB-54E1-9B2F-829C1AECC900</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_contacto" id="3729EE5A-FBBF-70DE-FEC5-82FF5DF13DBC">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>94DA0660-D803-E3EE-0648-CA40BB6ADF2C</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FEF3CA4-69FE-660D-6E4C-57C1E4AF222F" name="ACTO_PUBLICO_PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>C8CE59A8-24F7-22B3-F626-FCB119EAEF6C</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1652FBF5-E92B-8391-6364-9DBE7859A7FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

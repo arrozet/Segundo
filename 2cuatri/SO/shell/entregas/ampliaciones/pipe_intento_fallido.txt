@@ -1,0 +1,63 @@
+/*
+		if(piped(args)){
+			if(strcmp(args[0], "|") == 0){	// CONTROL DE ERROR -> si lo primero que hay es un pipe
+				printf(RED"ERROR: pipe syntax error"RESET);
+				continue;
+			}
+
+			int i = 0;
+			while(strcmp(args[i],"|") != 0){	// voy rellenando el primer comando
+				first_pipe[i] = strdup(args[i]);
+				i++;
+			}
+			first_pipe[i] = "\0";	// fin del primer comando
+
+			i++;	// empiezo a procesar el siguiente comando
+			if(args[i]==NULL){//CONTROL DE ERROR -> si no hay segundo comando
+				printf(RED"ERROR: pipe syntax error"RESET); 
+				continue;
+			}
+
+			int j=0;
+			while(args[i]!=NULL){	// voy rellenando el segundo comando
+				second_pipe[j] = strdup(args[i]);
+				i++;
+				j++;
+			}
+			second_pipe[j] = "\0";	// fin del segundo comando
+
+			printf("%s\n%s\n",first_pipe[0],second_pipe[0]);
+			// TRATAMIENTO DE LOS COMANDOS
+			pid_fork = fork();
+			if(pid_fork == 0){	// child
+				int file_descr[2];
+				if(pipe(file_descr) == -1){	// creo dos descriptores archivo -> file_descr[0] para leer y file_descr[1] para escribir
+					perror("pipe");
+					continue;
+				}
+
+				int pid_fork2 = fork();
+				
+				if(pid_fork2>0){	// parent2
+					dup2(file_descr[1], fileno(stdout));	// pongo para escribir en stdout
+
+					close(file_descr[0]);	// no necesito leer de pipe en este proceso
+					execvp(first_pipe[0], first_pipe);
+
+					fprintf(stderr, "ERROR: command not found: %s\n", first_pipe[0]);	// si no se ha ejecutado correctamente, indico el error
+					exit(-1);
+				}
+				else if(pid_fork2==0){	//child2
+					dup2(file_descr[0], fileno(stdin));
+
+					close(file_descr[1]);	// no necesito escribir de pipe en este proceso
+					execvp(second_pipe[0], second_pipe);
+
+					fprintf(stderr, "ERROR: command not found: %s\n", second_pipe[0]);	// si no se ha ejecutado correctamente, indico el error
+					exit(-1);
+				}
+			}
+
+			continue;
+		}
+*/

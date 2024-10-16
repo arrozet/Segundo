@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A39F6C1-679A-6871-29BA-F3452E4D9B3F" containerWithKeyObject="CF3D733C-ACAC-EDD5-EBD6-FA2C865AB112" localFKIndex="37AB6288-4481-B96E-EB04-CB8B2CCAA078" name="ACTO_PILOTO_ACTO_PUBLICO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>D79B8949-D021-3A01-F1C6-B943FE5598F3</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<referredTableLongName>ACTO_PUBLICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5B65F1AC-EBB5-0A47-6AE9-6E983756BDB5</referredTableID>
+<keyObject>0FEF3CA4-69FE-660D-6E4C-57C1E4AF222F</keyObject>
+<referredKeyID>0FEF3CA4-69FE-660D-6E4C-57C1E4AF222F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>fecha</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

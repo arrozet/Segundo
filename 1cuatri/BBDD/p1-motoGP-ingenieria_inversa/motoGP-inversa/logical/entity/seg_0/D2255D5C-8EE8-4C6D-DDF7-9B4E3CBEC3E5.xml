@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2255D5C-8EE8-4C6D-DDF7-9B4E3CBEC3E5" name="CARRERA">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>74943B71-985C-040D-8FDD-190D50C8AB0C</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TIPO NEUMATICO DELANTERO" id="A4D8454D-3DAD-A7F1-6D22-1A21873DF9FE">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>586D9771-E82E-6BB3-710B-5C521764C9C5</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO NEUMATICO TRASERO" id="0518C1A9-B825-5091-0BA3-21EFC2AC4520">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>FC847413-E0D7-5BF8-A713-01BF0913B593</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAIDA" id="52E8E918-D03D-33BD-F2E2-56A1669C99F4">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>92BBE54D-F503-C058-F819-7FAE3E26B628</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIEMPO" id="1371C4DB-2874-7797-DDC9-1BFF95B00EC1">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>63D819C3-F304-B089-5DF1-FE5F1040BC20</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PUNTUACION" id="EE258467-C303-E281-9E90-0CF8699A7911">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>1741E461-E881-68E0-8B37-7181D004E54B</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PILOTO NOMBRE" id="8DD24A9B-ED86-6C05-9B03-9AAA4AE7073A">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>4502F8E9-E685-9343-71B8-6A05E89E6A4C</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<referedAttribute>FEA1606C-6846-4D4B-0FCA-277D38A455A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIRCUITO NOMBRE" id="FB5C5968-D66C-9238-4BCF-B2E2176E6AE5">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>D9C779C6-9B12-8CE1-2263-D038343FC510</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<referedAttribute>0340276F-C0F2-AA9F-53E3-F3B465AB0985</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1C08BCD-14E7-DC21-D4B8-58912F88C2F0" name="CARRERA PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>3B91EFDC-77D3-14ED-2777-855193F07041</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8DD24A9B-ED86-6C05-9B03-9AAA4AE7073A</attributeRef>
+<attributeRef>FB5C5968-D66C-9238-4BCF-B2E2176E6AE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

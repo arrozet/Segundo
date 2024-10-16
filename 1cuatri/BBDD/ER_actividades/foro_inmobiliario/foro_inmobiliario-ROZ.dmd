@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="foro_inmobiliario-ROZ" id="2148F398-6D97-C2B1-5ED0-DEB09B75195C" version="3.5">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:33:26 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2148F398-6D97-C2B1-5ED0-DEB09B75195C</designId>
+</OSDM_Design>

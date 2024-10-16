@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PILOTO_PILOTO_PILOTO_FKV1" directorySegmentName="seg_0" id="CA5FE040-F48A-37F2-8D35-9DC510BD5088">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>ACE395AC-3B76-FE48-981D-94F98F422B96</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<sourcePk>890149C0-FA9F-AC3E-EFAE-81C3657D828B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>29020374-EC32-469A-9258-6E872321DAA1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8E789989-5245-0B26-35BF-182CD96305E1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

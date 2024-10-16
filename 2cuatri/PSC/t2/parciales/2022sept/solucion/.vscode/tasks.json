@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "CompilarExamenC2022",
+			"command": "C:\\mingw64\\bin\\gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"${fileDirname}\\Tren.c",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			]
+		}
+	]
+}

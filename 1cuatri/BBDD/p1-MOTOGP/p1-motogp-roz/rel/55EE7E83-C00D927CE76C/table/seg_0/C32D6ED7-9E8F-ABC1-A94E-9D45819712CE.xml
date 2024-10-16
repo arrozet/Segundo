@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C32D6ED7-9E8F-ABC1-A94E-9D45819712CE" name="TIEMPOS">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>8ACBCABC-50AB-495D-0C6D-A6BE2FD76FF3</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vuelta" id="708631EC-F754-F425-8E39-E7FE75F6CD59">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>A05FDBB3-2C79-3AE5-B897-C74D91B85D7D</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tiempo" id="8BB94CFF-44ED-8A2C-A2BD-EBE653CFECB4">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>3C6068C2-B3C7-74AE-6819-28E17FC15445</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PILOTO_nombre" id="DBF7B1AA-FD36-6689-E025-4BD2DAEBEB51">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>60794FA0-35B8-0216-B6E6-1F1AB812DFC2</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E8399FE-A6F5-1E88-F3AF-498DCF9E063C" referredColumn="2DF503B0-251E-044F-7960-E9D1F4539565"/>
+</associations>
+</Column>
+<Column name="TRAMO_codigo" id="3BE56943-AAD8-029F-3A94-20EEAE589281">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>D28ED62A-EEE3-81F3-2EB2-9C7D40E49BCA</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1513EB7E-77BF-0E73-D1BA-695E116D2BF0" referredColumn="F2603740-235F-5478-91D7-C8E98DFA7DFD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4C3A71D-4B40-C15B-181D-4994830C1D6F" name="TIEMPOS_PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>20A03A7A-3F2F-AD54-55A1-9A0E369CAD34</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="708631EC-F754-F425-8E39-E7FE75F6CD59"/>
+<colUsage columnID="DBF7B1AA-FD36-6689-E025-4BD2DAEBEB51"/>
+<colUsage columnID="3BE56943-AAD8-029F-3A94-20EEAE589281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF11D5D5-00CA-4289-BD42-5AD6767283A2" name="TIEMPOS_PILOTO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>18E3E727-3740-72F8-E58C-A37A593E64CB</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBF7B1AA-FD36-6689-E025-4BD2DAEBEB51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76739BB0-52EF-2F47-F8A9-E1825E53E62D" name="TIEMPOS_TRAMO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>8812C379-AE38-EE70-5B5B-1B70BE4C3B5C</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BE56943-AAD8-029F-3A94-20EEAE589281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

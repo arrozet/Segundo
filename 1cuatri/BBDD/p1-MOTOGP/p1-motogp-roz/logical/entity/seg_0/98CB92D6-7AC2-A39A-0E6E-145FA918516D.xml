@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98CB92D6-7AC2-A39A-0E6E-145FA918516D" name="ACTO_PUBLICO">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>C45EE344-7257-A5F6-64FF-46940DAEAAAA</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha" id="380A5DE2-6B2A-124D-0646-39FA41D3E981">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>034DDBFA-49FF-F171-88EF-BD3CABCFA681</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="2B8EC72B-104E-CDD5-E6A6-4390CD35D58F">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>CB153CC1-1EF2-5169-EF1D-B4DF6430F0E4</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="1BB8303B-C980-B8BD-0260-7094F7ADF801">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>9052D3EC-8628-B9B5-F328-0E387E627AC2</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="persona_contacto" id="F00E0D11-D2CB-54E1-9B2F-829C1AECC900">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>B74EA297-4EB1-C503-565F-D198CC70D830</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_contacto" id="94DA0660-D803-E3EE-0648-CA40BB6ADF2C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>9200CD82-02BA-5AF0-30A1-11C3A7ECA60B</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8CE59A8-24F7-22B3-F626-FCB119EAEF6C" name="ACTO_PUBLICO PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>BBCD4830-1E22-A1B4-F0B5-8D30DAA9BA1F</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>380A5DE2-6B2A-124D-0646-39FA41D3E981</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

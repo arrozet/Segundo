@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F5077F0-82DF-A5EA-46AC-963C0DAC8EC4" name="EQUIPO">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>1A65C03D-24B0-344C-35C3-6AC55743EC08</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="21D6DA92-A734-EAE2-31BA-784A992FF716">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>DED7045B-2BCE-752D-70FE-30BF7C2DB906</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo_moto" id="D03FEAB9-3A0B-50C3-B593-03DE3DA3712C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>147A501C-F24A-DE14-1B57-9FE831884481</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_postal" id="B79445BB-759E-D689-1B8D-EACA22FDBA65">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>7FCD030B-E401-F053-1D51-2A5B23CDC276</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_web" id="82DC4B08-8831-AC79-0EDF-B090401CE393">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>FED212EC-2815-2592-E0AA-E248E923DBAE</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="objetivos" id="3FF3CBB5-106D-6787-A160-ED6C38318DC9">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>C294FB39-2605-C232-8A54-21C9712EC486</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foto_oficial" id="E33FDFDF-3E89-1FAE-AA4F-D3D6FFE8E58B">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>560FB2A1-749F-0946-B499-F76B58E4D220</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logo" id="15A9B711-F262-46A3-7571-C9CF18CF576C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>4F26DF56-E890-BAEA-D506-B75F17B88C83</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADO_codigo" id="42C5FB1D-5739-6B37-CB1D-80909DF14C9B">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>9B2BB923-09C7-34F5-03D8-7254E4D31BCC</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74718F1D-6219-4FBB-A034-A13A0DEEDFCF" referredColumn="C3EA652F-D2E7-2C5A-F2C9-A99222AD319B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="329CBB84-55E6-BC4F-6EDC-11C78A4157BE" name="EQUIPO_PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>1C7FE632-13AF-DEF4-B45E-E7F6E9DE8E54</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21D6DA92-A734-EAE2-31BA-784A992FF716"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="549F024B-771A-198E-1313-C6D9B292575B" name="EQUIPO__IDX">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6B424A88-3AE3-5A8B-847A-18ECD147A290</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="42C5FB1D-5739-6B37-CB1D-80909DF14C9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A809886A-21B0-3688-5D2E-23C3C72702C7" name="EQUIPO_EMPLEADO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>6B424A88-3AE3-5A8B-847A-18ECD147A290</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42C5FB1D-5739-6B37-CB1D-80909DF14C9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

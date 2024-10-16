@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D020F2D7-E262-C55C-D794-5BED89DEA5B8" name="ACTO PILOTO">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>D75FB2E5-B9F9-237A-0978-B59E1EE3C94D</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ACTO PUBLICO FECHA" id="42427D54-6571-9A46-6171-86C8EE145673">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>2640DD23-6288-7BFB-C9A3-5F13E7330A09</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<referedAttribute>F8435BA1-16CE-E0E7-52AA-98DF6913512A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PILOTO NOMBRE" id="3E95F61D-54F2-0C88-9752-4C09ED5F82D2">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>0F125818-C112-84AA-5460-46A77ED8803E</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<referedAttribute>FEA1606C-6846-4D4B-0FCA-277D38A455A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="60302799-A43B-E546-7982-9D27A49DEB20" name="ACTO PILOTO PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>36C9557C-19C4-1BFC-B9D5-3D4376A62A4E</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42427D54-6571-9A46-6171-86C8EE145673</attributeRef>
+<attributeRef>3E95F61D-54F2-0C88-9752-4C09ED5F82D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

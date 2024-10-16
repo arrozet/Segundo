@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E33FFDC-5CCB-7333-DE5F-2CF9BA19CD0E" schemaObject="16A2A1D2-B944-F059-954C-50386F298A39" name="TRAMO">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>TRAMO</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:24 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="F967775E-90E9-04AD-A48F-DD957722AA9E">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIFERENCIA_ALTURA" id="904960A3-E263-17B1-D678-44850823B976">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>DIFERENCIA_ALTURA</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ASFALTO" id="0EACAF78-6BBF-DAE4-22DA-157B8C4FB9FF">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>TIPO_ASFALTO</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VELOCIDAD_MEDIA" id="F34BE39A-D120-E2BB-5CB1-90A3CBB4CD19">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>VELOCIDAD_MEDIA</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIRCUITO_NOMBRE" id="4E90A1BC-3037-2244-F581-D5D5065A2AFE">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>CIRCUITO_NOMBRE</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A322AA3-1FCB-B3EB-A5DB-2D91E28F5732" referredColumn="C46C96DF-80A9-5A3F-9B5F-721BCB929C81"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="926813DD-7198-39F5-2689-F9A1FF400FDD" name="TRAMO_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>TRAMO_PK</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:27 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F967775E-90E9-04AD-A48F-DD957722AA9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="719F4620-ABB1-E226-80D5-8B7633829FF7" schemaObject="16A2A1D2-B944-F059-954C-50386F298A39" name="TRAMO_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>TRAMO_PK</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:26 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F967775E-90E9-04AD-A48F-DD957722AA9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F05176B0-2CC4-4674-F692-C9EC0FCA2C6A" name="TRAMO_CIRCUITO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E90A1BC-3037-2244-F581-D5D5065A2AFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

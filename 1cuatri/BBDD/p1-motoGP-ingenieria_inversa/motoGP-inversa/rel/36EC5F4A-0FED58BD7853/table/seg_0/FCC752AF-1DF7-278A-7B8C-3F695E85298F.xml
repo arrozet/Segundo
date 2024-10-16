@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCC752AF-1DF7-278A-7B8C-3F695E85298F" schemaObject="16A2A1D2-B944-F059-954C-50386F298A39" name="ACTO_PUBLICO">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>ACTO_PUBLICO</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:24 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FECHA" id="D4852207-FDF1-E542-3B81-150595099316">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>ACTO_PUBLICO</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="DFD4D1A9-F9FE-3F0C-DE5F-A6800B0FC323">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>ACTO_PUBLICO</sourceObjSchema>
+<sourceObjName>DIRECCION</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="FD14628F-3199-79B8-9F5D-2F4142DB6A6A">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>ACTO_PUBLICO</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_CONTACTO" id="126FE38C-BBAF-A299-DE81-543EBBD5006C">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>ACTO_PUBLICO</sourceObjSchema>
+<sourceObjName>PERSONA_CONTACTO</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_CONTACTO" id="080A5CE8-3F94-457C-7290-C503BC987925">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>ACTO_PUBLICO</sourceObjSchema>
+<sourceObjName>NUMERO_CONTACTO</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4992273-E12E-DB7B-F2EE-9D7FA6507708" name="ACTO_PUBLICO_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>ACTO_PUBLICO_PK</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:27 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4852207-FDF1-E542-3B81-150595099316"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2AA5454-4343-5BA7-0D1D-4C7993B90B05" schemaObject="16A2A1D2-B944-F059-954C-50386F298A39" name="ACTO_PUBLICO_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>ACTO_PUBLICO_PK</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4852207-FDF1-E542-3B81-150595099316"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

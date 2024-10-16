@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6184D749-6812-5817-69D3-E8E70E2A9ACC" name="DEBATE">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:41:29 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="89D05B8B-2347-C16E-D0F7-E6589B13858F">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:41:36 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_cierre" id="DE5C1D7C-A2CD-C386-A48B-7864AB135C9C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:41:46 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="3A04295D-8C6B-B28A-1E4C-AFA382B4D376">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:46:35 UTC</createdTime>
+<generatorID>F17CA7FD-FCEF-4D90-74C5-663C4DCA09D7</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B7802738-6293-D57D-6237-205C3899B753</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo1" id="EBABAAD5-7DFF-AAF5-EAF1-1C51940327C0">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:46:56 UTC</createdTime>
+<generatorID>B4DA408B-7071-A07A-2561-9A2E7E263F68</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>89D05B8B-2347-C16E-D0F7-E6589B13858F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_creacion" id="DF136C9D-E285-4E4A-DF54-7C87255591A6">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:01:39 UTC</createdTime>
+<generatorID>E82B18BF-5994-4ADC-DE16-D1FBE2AB18D2</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<referedAttribute>54459123-BB9E-F4EA-BD5F-CA00B35DCD3D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo11" id="9681AEC5-7EDF-DAB1-12FF-AEDD0A0B6CC3">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:01:39 UTC</createdTime>
+<generatorID>E82B18BF-5994-4ADC-DE16-D1FBE2AB18D2</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<referedAttribute>C64103B0-A33B-DF91-4F80-3A8A5044F698</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F9FFACF-A9C0-9832-C82E-82948FFFB586" name="DEBATE PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:41:40 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89D05B8B-2347-C16E-D0F7-E6589B13858F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

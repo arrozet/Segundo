@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="motoGP-inversa" id="7C1AC3B3-154A-E56A-122A-7EDAA62FCF45" version="3.5">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:11:24 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7C1AC3B3-154A-E56A-122A-7EDAA62FCF45</designId>
+</OSDM_Design>

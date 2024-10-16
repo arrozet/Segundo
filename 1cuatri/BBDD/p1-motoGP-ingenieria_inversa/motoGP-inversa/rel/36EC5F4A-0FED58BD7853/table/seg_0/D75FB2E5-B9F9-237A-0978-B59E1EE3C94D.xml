@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D75FB2E5-B9F9-237A-0978-B59E1EE3C94D" schemaObject="16A2A1D2-B944-F059-954C-50386F298A39" name="ACTO_PILOTO">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>ACTO_PILOTO</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:24 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACTO_PUBLICO_FECHA" id="EC6E1290-A46F-D2AF-7C89-4574A1914768">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>ACTO_PILOTO</sourceObjSchema>
+<sourceObjName>ACTO_PUBLICO_FECHA</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B67D8F65-3B18-BED5-4BA7-1AC459BC6B26" referredColumn="D4852207-FDF1-E542-3B81-150595099316"/>
+</associations>
+</Column>
+<Column name="PILOTO_NOMBRE" id="9497ECA3-F369-24D8-7C8D-4E145F4F12DA">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>ACTO_PILOTO</sourceObjSchema>
+<sourceObjName>PILOTO_NOMBRE</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="289FA5E3-C8EB-4CCE-0341-0F6E1BE7E899" referredColumn="F5BEA07C-85BE-2271-273F-172BCFF91C49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36C9557C-19C4-1BFC-B9D5-3D4376A62A4E" name="ACTO_PILOTO_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>ACTO_PILOTO_PK</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:27 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC6E1290-A46F-D2AF-7C89-4574A1914768"/>
+<colUsage columnID="9497ECA3-F369-24D8-7C8D-4E145F4F12DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C98381DF-CD0D-EA89-31F3-936C272EC06B" schemaObject="16A2A1D2-B944-F059-954C-50386F298A39" name="ACTO_PILOTO_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>ACTO_PILOTO_PK</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC6E1290-A46F-D2AF-7C89-4574A1914768"/>
+<colUsage columnID="9497ECA3-F369-24D8-7C8D-4E145F4F12DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="661DF4B4-C854-C28B-C3DF-CE7AA32BEF55" name="ACTO_PILOTO_ACTO_PUBLICO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC6E1290-A46F-D2AF-7C89-4574A1914768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A51C171-9ED9-25F4-48ED-D5B6AE548D23" name="ACTO_PILOTO_PILOTO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9497ECA3-F369-24D8-7C8D-4E145F4F12DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

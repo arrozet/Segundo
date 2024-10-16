@@ -1,0 +1,56 @@
+ALUMNO: Oliva Zamora, Rubén
+GRADO: Ingeniería del Software A
+
+AMPLIACIONES DE GUIÓN:
+* AÑADIDO TAMBIÉN COLORES A LOS PRINTF DE ERRORES (ROJO) Y DE PROCESOS CORRIENDO (AZUL)
+1. RESPAWNABLE - Comando interno para trabajos en modo de ejecución respawnable
+    - JOB_CONTROL.H
+        # Añadido a las enumeraciones en job_control.h, añadiendo en "enum job_state" y "char* state_strings[]" el nuevo estado RESPAWNABLE.
+        # Añadido un nuevo parámetro a la estructura "job": args, para poder guardar los argumentos del proceso que debe ser inmortal. 
+            Solo será usado cuando se añada a la cola un proceso respawnable, ya que en el resto de casos no es necesario guardar los args (hecho así por ahorro de memoria).
+        # Añadida la cabecera de un nuevo método "add_respawnable_job", para añadir un job respawnable y guardar así sus args.
+        # Añadido 1 parámetro a la cabecera "get_command": el parámetro <int *respawnable>.
+
+    - JOB_CONTROL.C
+        # GET_COMMAND:: ahora se busca el carácter '+' que indica que un comando es del tipo respawnable. Funciona igual que el 
+        ya preimplementado '&' para background. Además, se ha añadido el parámetro <int *respawnable> a su cabecera.
+        # Declaración del método "ADD_RESPAWNABLE_JOB". Es prácticamente igual al método "add_job", solo que se reserva memoria para cada string de
+            los args, para así poder guardarlas para revivir cuando acabe al proceso respawnable. Es importante terminar el argumento en NULL para evitar problemas futuros.
+        # DELETE_JOB: ahora si el proceso es respawnable, borra también los args de memoria para asegurarse de que todo lo que se va a dejar de usar,
+            queda libre.
+
+    - SHELL_PROJECT.C
+        # PARENT (fork): añadido que si el proceso es respawnable, se guarde como tal en la lista y se comunique por terminal.
+        # CHILD (fork): añadido que solo se asigne el terminal si el hijo de foreground. Excluido también el nuevo respawnable.
+        # BG: añadido que se cambie a BACKGROUND también si es RESPAWNABLE (no solo STOPPED).
+        # MANEJADOR_CHILD: añadido nueva variable <pid_t pid_respawnable>.
+            Se controla que si se suspende un proceso Respawnable, se comunique por terminal.
+            Si un proceso respawnable muere, se "revive" con un fork (asignando grupo en padre e hijo, y ejecutando el hijo). También se actualiza el pid en la lista jobs
+                y se comunica por terminal
+
+2. ALARM-THREAD - Limitación del tiempo de vida de un trabajo basado en threads
+    - SHELL_PROJECT.C
+        # TRAS DECLARACIÓN BIBLIOTECAS: struct de timeoutArgs, que indica los 2 parámetros que le entrarán al puntero void* del handler del thread (time y pid).
+            Además, he incluido pthread.h para poder trabajar con threads.
+        # Declaración del método "TIMEOUT HANDLER": nueva función que hace posible esperar un tiempo time para después aniquilar al proceso pid. Es la función que ejecuta el thread
+        # INICIO MAIN: añadidos 3 nuevos parámatros (time, timeout, timeout_thr_id); que indican el tiempo del timeout, si hay o no timeout y el id del thread que hará la operación
+        # ALARM-THREAD: nuevo comando. Implementa control de errores y pone a 1 el booleano timeout, además de poner en la posición correcta de args el comando a ejecutar temporalmente.
+        # PARENT (fork): si el flag de timeout está activado, se crea el thread que ejecutará timeoutHandler y se espera a que este acabe. Implementa también gestión de errores.
+
+        *Todos los métodos liberan memoria tras dejarla de usar.
+        
+3. DELAY-THREAD - Ejecución postergada de un comando
+    - SHELL_PROJECT.C
+        # TRAS DECLARACIÓN BIBLIOTECAS: struct de delayArgs, que indica los 2 parámetros que le entrarán al puntero void* del handler del thread (time y cmd).
+        # INICIO MAIN: añadidos 2 nuevo parámetros (delay_time y delay_thr_id); que indica el tiempo de delay y el id del thread que hará la operación
+        # Declaración del método "DELAY HANDLER": nueva función que hace posible esperar un tiempo delay_time para después iniciar al proceso pid. Es la función que ejecuta el thread
+        # DELAY-THREAD: nuevo comando. Implementa control de errores y copia el comando correspondiente (reservando memoria) para después lanzarlo en el thread de ejecución postergada.
+        
+        *Todos los métodos liberan memoria tras dejarla de usar.
+
+4. MASK - Enmascaramiento de señales
+    - SHELL_PROJECT.C
+        # NUEVA CONSTANTE: NUMBER_OF_SIGNALS, que indica el número máximo de señales en Linux + 1 (+1 para poder tener una con la que parámetros)
+        # NUEVAS VARIABLES: mask[NUMBER_OF_SIGNALS] para guardar la señales y maskIsOn, para controlar cuando ejecutar en el hijo del código asociado a que el comando máscara esté activo.
+        # MASK: nuevo comando. Control de errores y asignación de números de máscaras al array de enteros mask. También se asegura de que el comando se ejecute en foreground.
+        # CHILD (fork): tras restore terminal signals, si el comando mask ha sido ejecutado, se bloquean las señales pertinentes y se resetea el booleano de la máscara.

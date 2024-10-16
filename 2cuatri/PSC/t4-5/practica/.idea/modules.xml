@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" filepath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t4_ej1/t4_ej1.iml" filepath="$PROJECT_DIR$/t4_ej1/t4_ej1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t4_ej2/t4_ej2.iml" filepath="$PROJECT_DIR$/t4_ej2/t4_ej2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t4_ej3/t4_ej3.iml" filepath="$PROJECT_DIR$/t4_ej3/t4_ej3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t4_ej4/t4_ej4.iml" filepath="$PROJECT_DIR$/t4_ej4/t4_ej4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t4_ej5/t4_ej5.iml" filepath="$PROJECT_DIR$/t4_ej5/t4_ej5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t5_ej1/t5_ej1.iml" filepath="$PROJECT_DIR$/t5_ej1/t5_ej1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t5_ej2-Lamport/t5_ej2-Lamport.iml" filepath="$PROJECT_DIR$/t5_ej2-Lamport/t5_ej2-Lamport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t5_ej2-Peterson/t5_ej2-Peterson.iml" filepath="$PROJECT_DIR$/t5_ej2-Peterson/t5_ej2-Peterson.iml" />
+    </modules>
+  </component>
+</project>

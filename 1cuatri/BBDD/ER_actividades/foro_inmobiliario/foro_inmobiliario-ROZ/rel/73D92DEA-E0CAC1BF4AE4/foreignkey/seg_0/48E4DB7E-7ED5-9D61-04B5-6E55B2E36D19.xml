@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="48E4DB7E-7ED5-9D61-04B5-6E55B2E36D19" containerWithKeyObject="B642E1CF-F5F6-E37A-7B2E-BAAAB0F1EA19" localFKIndex="08100286-BBD1-99A3-DD47-1AB7122E9604" name="MENSAJE_DEBATE_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:02:56 UTC</createdTime>
+<generatorID>C7279353-FDEC-452E-5030-7BF18FC01F9E</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<referredTableLongName>DEBATE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A7AD248-C322-4989-8E64-2AC130954CFE</referredTableID>
+<keyObject>57851954-F2B0-88AC-405E-87233F30C174</keyObject>
+<referredKeyID>57851954-F2B0-88AC-405E-87233F30C174</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

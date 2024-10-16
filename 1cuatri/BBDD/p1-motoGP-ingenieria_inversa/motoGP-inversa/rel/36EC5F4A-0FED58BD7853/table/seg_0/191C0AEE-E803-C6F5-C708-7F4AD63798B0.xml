@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="191C0AEE-E803-C6F5-C708-7F4AD63798B0" schemaObject="16A2A1D2-B944-F059-954C-50386F298A39" name="OFICIAL">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>OFICIAL</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:24 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMBRE" id="398157D6-F4FE-5D4B-3A69-C1408DAB5665">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>OFICIAL</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C19EF0B-6F87-1550-54CA-5595ED171625" referredColumn="955F49BA-8986-B716-65E9-D2C242DD9F77"/>
+</associations>
+</Column>
+<Column name="PRESUPUESTO" id="A4BD3375-5BE1-DE64-7F36-3F721047AC64">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>OFICIAL</sourceObjSchema>
+<sourceObjName>PRESUPUESTO</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANO_CREACION" id="EEFEAF12-9A3F-6D1D-406C-41F559068637">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>OFICIAL</sourceObjSchema>
+<sourceObjName>ANO_CREACION</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION_FABRICA" id="C0CAC510-339E-E65D-2CD4-ABD687855CFD">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>OFICIAL</sourceObjSchema>
+<sourceObjName>DIRECCION_FABRICA</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A23C917-A264-066A-F434-E2866FF97E8A" name="OFICIAL_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>OFICIAL_PK</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:27 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="398157D6-F4FE-5D4B-3A69-C1408DAB5665"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F03D294F-EEBC-FCBD-F00F-3DC61AD44853" schemaObject="16A2A1D2-B944-F059-954C-50386F298A39" name="OFICIAL_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>OFICIAL_PK</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:26 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="398157D6-F4FE-5D4B-3A69-C1408DAB5665"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9099FDC-1A0A-32B5-B255-C246F7D55E4D" name="OFICIAL_EQUIPO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="398157D6-F4FE-5D4B-3A69-C1408DAB5665"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

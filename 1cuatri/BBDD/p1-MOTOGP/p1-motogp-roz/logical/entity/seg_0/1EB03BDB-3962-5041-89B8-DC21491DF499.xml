@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EB03BDB-3962-5041-89B8-DC21491DF499" name="TRAMO">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>2B682364-A44F-F7A9-B1E4-A6F0DF9705BA</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="935582C7-4D23-7376-10E5-4F8F25EF0A5E">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>825A6C6E-B0A6-B7FA-F0A9-38D62D7DBB81</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diferencia_altura" id="1A74F128-04A1-C582-31F3-6F76EE0FEC81">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>5BC66284-A2F7-A06D-E7F7-501FBB77D1E3</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_asfalto" id="AB95F525-2E5C-DF85-313C-C845B00E669C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>032BBA23-C9DC-E687-8883-881C7CDF0183</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="velocidad_media" id="2DA6AA39-A071-209C-1105-00354AF266EF">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>F18A4594-274C-EE24-056B-63D33539363C</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="51B039BB-A49B-9402-E977-57ED279B5D4F">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<generatorID>50BF8C0A-E270-608B-2547-8BE6EA16D1B5</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>15CE8D9E-9D24-9F61-1441-2C7D525FDB0E</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<referedAttribute>7E08FFAC-6196-5426-EF55-C3C5421358B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6A9F4E7-8722-3860-9D52-22CA160EFD31" name="TRAMO PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>5F06DBAA-A99E-91B3-4EBD-84601500909A</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>935582C7-4D23-7376-10E5-4F8F25EF0A5E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

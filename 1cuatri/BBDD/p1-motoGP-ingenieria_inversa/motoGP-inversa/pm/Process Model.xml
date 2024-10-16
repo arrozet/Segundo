@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="E85E908E-4D4C-01ED-00ED-C12A5A6B18ED">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:11:24 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

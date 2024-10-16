@@ -1,0 +1,4 @@
+P12 - modificación encendido leds rojos
+
+Simplemente es una ligera modificación a la práctica 12, porque inicialmente había una errata que indicaba que se dejasen los 2 leds verdes encendidos y se sondeasen los botones para encender los leds rojos (botón izquierdo -> led rojo izquierdo, botón derecho -> led rojo derecho).
+Esto es lo que hace esta modificación, deja encendido los verdes y va mirando los rojos; en lugar de dejar encendidos los verdes y sondear los verdes.

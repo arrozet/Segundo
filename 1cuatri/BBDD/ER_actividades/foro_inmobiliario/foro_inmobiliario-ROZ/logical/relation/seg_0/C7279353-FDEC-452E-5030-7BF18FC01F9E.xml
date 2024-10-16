@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEBATE_MENSAJE-TIENE" directorySegmentName="seg_0" id="C7279353-FDEC-452E-5030-7BF18FC01F9E">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:44:53 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<sourcePk>3F9FFACF-A9C0-9832-C82E-82948FFFB586</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>TIENE</nameOnSource>
+<nameOnTarget>PERTENECE</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6184D749-6812-5817-69D3-E8E70E2A9ACC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0E71DE17-A28C-D6FC-F027-2405875A2C09</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

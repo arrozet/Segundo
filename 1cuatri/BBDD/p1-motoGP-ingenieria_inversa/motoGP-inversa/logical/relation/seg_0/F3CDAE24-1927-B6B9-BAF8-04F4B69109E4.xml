@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OFICIAL_EQUIPO_FK" directorySegmentName="seg_0" id="F3CDAE24-1927-B6B9-BAF8-04F4B69109E4">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:15:21 UTC</createdTime>
+<generatorID>6C19EF0B-6F87-1550-54CA-5595ED171625</generatorID>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<engineerTo>
+<item key="36EC5F4A-78C7-8C5E-A25E-0FED58BD7853" value="true"/>
+</engineerTo>
+<sourcePk>E6A06EBE-AAFA-77B1-0E12-343E5072CB4C</sourcePk>
+<dominantRole>9B4EFFBD-B1F9-DA43-363C-E3F81BF6D2BB</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B4EFFBD-B1F9-DA43-363C-E3F81BF6D2BB</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F6E1B8BC-D563-2097-42B1-88B6C7C02D36</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

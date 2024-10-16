@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF02503C-FFFB-1B79-E43A-54CA0845C74A" name="CARRERA">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>37072601-0F54-4CF1-C38F-B14EA2DB46FB</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_neumatico_delantero" id="D8FD983F-7344-DF95-B41B-623CB57D8CD6">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>1F928E48-9BE5-7EDD-73D7-6E0FC60EE401</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_neumatico_trasero" id="EDCE807C-0F81-F5DD-75E8-5CC5E1008827">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>27394FA0-8707-1A5E-12EF-FF03F0575EEE</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="caida" id="13748F17-29E2-8690-2A17-6A9276C309B8">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>1C48854D-0D40-7B03-797D-80D99E584ECF</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tiempo" id="404918C6-0A3A-143F-0FAE-3392005A2DBE">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>9D4B764D-2315-D7D1-8BAA-70FBA96E2EB5</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntuacion" id="BBE87BB9-A139-7B5D-0681-FB22F432C693">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>9D1EF269-6CA6-ED6D-A91E-8C008F1C9767</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PILOTO_nombre" id="F39C8E9E-207C-A533-3C6C-0428FF0902BD">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>9964CE8E-4D43-8448-0FAE-246B9466EF17</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00839061-9E08-186E-7E89-8E91445926DD" referredColumn="2DF503B0-251E-044F-7960-E9D1F4539565"/>
+</associations>
+</Column>
+<Column name="CIRCUITO_nombre" id="100DB7E7-9756-9201-6E02-50EDE9B69B8A">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>04525F8D-3B87-F77C-AC7D-EC9170952DC5</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC847C7B-853C-EED0-7A97-717C886B049D" referredColumn="9D5B2204-9CBA-B5B0-0C06-48E5F9943959"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CC0F8B9-D913-8F83-2C2B-21A68D7F38C8" name="CARRERA_PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>D4C01627-5DD2-3C88-2961-17B47452407B</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F39C8E9E-207C-A533-3C6C-0428FF0902BD"/>
+<colUsage columnID="100DB7E7-9756-9201-6E02-50EDE9B69B8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7AEF0FC-6E51-DFE6-26C9-A8B6808A2373" name="CARRERA_CIRCUITO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>D1DF2950-2C00-3AEA-190E-B88EB7A02734</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="100DB7E7-9756-9201-6E02-50EDE9B69B8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E0C56A7-9370-8C2B-A9EF-A49432F29E20" name="CARRERA_PILOTO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>99B128D3-B617-DDB4-0941-3DE01EA7BFA1</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F39C8E9E-207C-A533-3C6C-0428FF0902BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

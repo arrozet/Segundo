@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CIRCUITO_TRAMO" directorySegmentName="seg_0" id="50BF8C0A-E270-608B-2547-8BE6EA16D1B5">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>12FA658A-E758-39AB-97C3-8E0730862EA7</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<sourcePk>734088BF-DCCC-D946-FB32-7135C0A4CF59</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>TIENE</nameOnSource>
+<nameOnTarget>PERTENECE_A</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4AC76D86-F851-FE07-425D-9B8EC5F8A08E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1EB03BDB-3962-5041-89B8-DC21491DF499</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

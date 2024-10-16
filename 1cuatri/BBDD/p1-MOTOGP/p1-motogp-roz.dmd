@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="p1-motogp-roz" id="DF822D93-3272-B90E-3A60-8D5580BA65BC" version="3.5">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:09 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DF822D93-3272-B90E-3A60-8D5580BA65BC</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A13EFCC0-E3B2-BA0A-1BFC-7E542F3A3A6B">
+<designStoragePath>D:\!UMA\!!UMA_CODE\2\1cuatri\BBDD\p1-MOTOGP\rubenO-p1</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1F030544-FF7C-F977-5725-BDD8583BB122">
+<designStoragePath>C:\Users\roz\Desktop\P1-MOTOGP-ROZ</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="49FB718C-2718-D41A-92A3-40EC596953F4">
+<designStoragePath>C:\Users\roz\Desktop\P1-MOTOGP-ROZ3</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9209C9E9-9D25-B011-BC97-672214E135E5">
+<designStoragePath>C:\Users\roz\Desktop\bbdd_practica\P1-MOTOGP-ROZ</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

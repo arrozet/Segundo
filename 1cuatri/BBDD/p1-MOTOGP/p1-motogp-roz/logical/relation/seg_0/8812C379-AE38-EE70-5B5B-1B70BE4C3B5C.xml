@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRAMO_TIEMPO" directorySegmentName="seg_0" id="8812C379-AE38-EE70-5B5B-1B70BE4C3B5C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>18D13051-E6A1-A0AC-6594-E54E0C66CB00</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<sourcePk>D6A9F4E7-8722-3860-9D52-22CA160EFD31</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1EB03BDB-3962-5041-89B8-DC21491DF499</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8ACBCABC-50AB-495D-0C6D-A6BE2FD76FF3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TIEMPOS" directorySegmentName="seg_0" id="A6363386-DF5D-8C65-CDD2-4B8DC99EE4DD">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:24 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<schemaObject>16A2A1D2-B944-F059-954C-50386F298A39</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F5ACB3E3-4F6F-7A6E-EC04-5AB70637240B</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PILOTO_NOMBRE" id="4CBB57D1-8B12-1A92-116B-FADF418F709A">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRAMO_CODIGO" id="56473A1F-597E-9CD0-9EC4-18CDC2B09147">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIEMPO" id="A7466D95-C251-51FF-0EC8-6057252E7E3D">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VUELTA" id="E16339E7-8A27-23CC-5B7C-45118DDE83B2">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TIEMPOS_PK" id="2850B5F5-D0BF-6476-A4F8-D2F6C3347390">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:26 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<schemaObject>16A2A1D2-B944-F059-954C-50386F298A39</schemaObject>
+<segment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TIEMPOS_PILOTO_FK" id="6F2344D3-833E-0932-14AC-CBF51A5D7170">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TIEMPOS_TRAMO_FK" id="DDA84B92-B2BD-981F-633A-90A6779A2D07">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TIEMPOS_PK" id="BB087D91-4D70-2583-E667-4175E45E1116">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:27 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<segment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+<existingIndex>2850B5F5-D0BF-6476-A4F8-D2F6C3347390</existingIndex>
+<indexSegment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93ADCD06-E448-222F-8641-C908D47362A4" name="EMPLEADO">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>E61C12A3-7056-CC42-EDC0-CDEBF78A3467</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="C3EA652F-D2E7-2C5A-F2C9-A99222AD319B">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>10CCD4B7-8B10-A3B4-19BD-04F2DCC21501</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pasaporte" id="174935EF-00BB-E02E-DE12-DDA4E7FAAE43">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>1E6A87C2-2AD0-4724-D6C3-8C6294BB24C7</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="80431A46-4EFF-9793-6581-7FF518877F93">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>80240793-613B-B118-F40F-F69CF444A4E2</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="842F60EA-C86B-F754-58BC-5113F21435A4">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>6E275198-304E-1FDB-E8F5-30BABAFC5E97</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="6E363F91-BE51-E5B3-0DD7-EB38E8F1E9E6">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>D508A8DC-311C-91EE-9779-36E2E93F8AFE</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQUIPO_nombre" id="7B8FCA64-C907-5C61-81C8-2C62D4EF9890">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>68EA08E2-F348-7F55-ADBD-C186E5202535</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="767DA3A0-C22A-7E05-86DA-8303416F7D40" referredColumn="21D6DA92-A734-EAE2-31BA-784A992FF716"/>
+</associations>
+</Column>
+<Column name="EQUIPO_nombre2" id="9AD9FE89-39E1-B9A2-A74E-13F2D343861F">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>B162579A-A578-4C6E-01A1-84F8CD7D98E0</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78A3B456-235B-E7F5-65D2-131E8648CED4" referredColumn="21D6DA92-A734-EAE2-31BA-784A992FF716"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B45F8AB-989C-7B84-817C-CBFFC9379459" name="EMPLEADO_PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>AC2FE8E2-9FCC-2576-E45A-543F7B778321</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3EA652F-D2E7-2C5A-F2C9-A99222AD319B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D351963-BF4F-A81A-53DB-B5F00F82CE2C" name="EMPLEADO_pasaporte_UN">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>50619CBA-1381-00A4-EE70-67C44F14A7B1</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="174935EF-00BB-E02E-DE12-DDA4E7FAAE43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E7F2383-821F-A790-E0E6-CC2977319932" name="EMPLEADO_nacionalidad_UN">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>2DDE7FCF-7950-A3BF-AE7E-22FEB4DB42DC</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80431A46-4EFF-9793-6581-7FF518877F93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E831F4FA-A652-52CE-EA98-8A66E48FF221" name="EMPLEADO__IDX">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6B424A88-3AE3-5A8B-847A-18ECD147A290</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7B8FCA64-C907-5C61-81C8-2C62D4EF9890"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC9537EF-2F97-068F-C0C9-EDFFB1259236" name="EMPLEADO_EQUIPO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>6B424A88-3AE3-5A8B-847A-18ECD147A290</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B8FCA64-C907-5C61-81C8-2C62D4EF9890"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D995138-7376-11B5-230A-8500633107C5" name="EMPLEADO_EQUIPO_FKv2">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>5F355960-CAAB-6154-37E0-DE0D61A7D7E4</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AD9FE89-39E1-B9A2-A74E-13F2D343861F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

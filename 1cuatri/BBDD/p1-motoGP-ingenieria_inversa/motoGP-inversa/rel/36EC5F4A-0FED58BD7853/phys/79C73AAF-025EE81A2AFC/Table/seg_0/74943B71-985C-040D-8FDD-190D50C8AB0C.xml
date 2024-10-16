@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CARRERA" directorySegmentName="seg_0" id="74943B71-985C-040D-8FDD-190D50C8AB0C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:24 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<schemaObject>16A2A1D2-B944-F059-954C-50386F298A39</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F5ACB3E3-4F6F-7A6E-EC04-5AB70637240B</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PUNTUACION" id="1741E461-E881-68E0-8B37-7181D004E54B">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_NEUMATICO_DELANTERO" id="586D9771-E82E-6BB3-710B-5C521764C9C5">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIEMPO" id="63D819C3-F304-B089-5DF1-FE5F1040BC20">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CIRCUITO_NOMBRE" id="8C6B12E0-F90F-C96B-0ABB-DB9E598B1CC7">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAIDA" id="92BBE54D-F503-C058-F819-7FAE3E26B628">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PILOTO_NOMBRE" id="EE9C5221-6D9F-9A77-FB38-C4FE7894259C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_NEUMATICO_TRASERO" id="FC847413-E0D7-5BF8-A713-01BF0913B593">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CARRERA_PK" id="60272CE7-A8A9-7842-C82D-5A6FC2850933">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:25 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<schemaObject>16A2A1D2-B944-F059-954C-50386F298A39</schemaObject>
+<segment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CARRERA_CIRCUITO_FK" id="1AE333A4-E02E-589A-AEFC-3875D65CAB3C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CARRERA_PILOTO_FK" id="1C4E8087-44B1-0A6C-822A-ACDDAAC768B4">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CARRERA_PK" id="3B91EFDC-77D3-14ED-2777-855193F07041">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:27 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<segment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</segment>
+<tableSpace>566B45F2-707F-9D43-2C3D-BD2AA7FC39DD</tableSpace>
+<existingIndex>60272CE7-A8A9-7842-C82D-5A6FC2850933</existingIndex>
+<indexSegment>F6B1BF55-94C6-A66B-B0AB-FF48917A0BDE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

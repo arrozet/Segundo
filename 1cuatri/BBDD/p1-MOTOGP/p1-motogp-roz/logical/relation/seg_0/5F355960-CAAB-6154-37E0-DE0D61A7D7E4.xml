@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="5F355960-CAAB-6154-37E0-DE0D61A7D7E4">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:07:56 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<importedID>DDC8D15E-898B-5D9F-262E-7B17B6DB7115</importedID>
+<engineerTo>
+<item key="55EE7E83-277A-63CC-404B-C00D927CE76C" value="true"/>
+</engineerTo>
+<sourcePk>1C7FE632-13AF-DEF4-B45E-E7F6E9DE8E54</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>TRABAJA</nameOnSource>
+<nameOnTarget>PERTENECE A</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1A65C03D-24B0-344C-35C3-6AC55743EC08</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E61C12A3-7056-CC42-EDC0-CDEBF78A3467</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

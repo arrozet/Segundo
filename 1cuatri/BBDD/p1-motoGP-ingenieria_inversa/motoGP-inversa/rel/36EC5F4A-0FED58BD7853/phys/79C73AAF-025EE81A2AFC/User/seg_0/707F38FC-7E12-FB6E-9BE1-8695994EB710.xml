@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="UBD4457" directorySegmentName="seg_0" id="707F38FC-7E12-FB6E-9BE1-8695994EB710">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjName>UBD4457</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:23 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<schemaObject>16A2A1D2-B944-F059-954C-50386F298A39</schemaObject>
+</UserOraclev10g>

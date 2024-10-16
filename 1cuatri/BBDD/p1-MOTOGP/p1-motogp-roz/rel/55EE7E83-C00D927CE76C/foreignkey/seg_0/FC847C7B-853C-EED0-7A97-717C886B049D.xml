@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FC847C7B-853C-EED0-7A97-717C886B049D" containerWithKeyObject="BF02503C-FFFB-1B79-E43A-54CA0845C74A" localFKIndex="A7AEF0FC-6E51-DFE6-26C9-A8B6808A2373" name="CARRERA_CIRCUITO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>D1DF2950-2C00-3AEA-190E-B88EB7A02734</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<referredTableLongName>CIRCUITO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2A017293-19DF-DB9A-4A47-D77B0121DE98</referredTableID>
+<keyObject>B1F3F76A-8297-DCA3-D15A-92DD15F21895</keyObject>
+<referredKeyID>B1F3F76A-8297-DCA3-D15A-92DD15F21895</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nombre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

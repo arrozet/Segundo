@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7044A09C-8092-EE45-7C76-1872E6F49603" mainViewID="C5D0BAAE-B795-AFB8-2CF7-A95FDA892A8B">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:11:24 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

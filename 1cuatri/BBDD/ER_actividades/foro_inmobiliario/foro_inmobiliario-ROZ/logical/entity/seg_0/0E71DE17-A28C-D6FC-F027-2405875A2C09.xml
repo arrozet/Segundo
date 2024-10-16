@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E71DE17-A28C-D6FC-F027-2405875A2C09" name="MENSAJE">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:40:06 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha_creacion" id="54459123-BB9E-F4EA-BD5F-CA00B35DCD3D">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:40:18 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contenido" id="554F6BB5-4260-C2B6-AB19-71659DAB7169">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:40:36 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000</dataTypeSize>
+<ownDataTypeParameters>5000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="76C81AD1-0730-40D6-B792-357AC23F431D">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:40:55 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="96E241AF-3BB5-812B-4233-4C448B7BE004">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:44:53 UTC</createdTime>
+<generatorID>C7279353-FDEC-452E-5030-7BF18FC01F9E</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<referedAttribute>89D05B8B-2347-C16E-D0F7-E6589B13858F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo1" id="C64103B0-A33B-DF91-4F80-3A8A5044F698">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:47:37 UTC</createdTime>
+<generatorID>A127CCA7-F889-7AEE-6760-3864A1594D06</generatorID>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<referedAttribute>507454E6-4A71-1AEE-F6B6-DAC999EF3EFC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28E6F6EA-EDE5-8B08-1D8A-48F38D0BDC87" name="MENSAJES PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 22:40:33 UTC</createdTime>
+<ownerDesignName>foro_inmobiliario-ROZ</ownerDesignName>
+<engineerTo>
+<item key="73D92DEA-8C55-47C9-BEED-E0CAC1BF4AE4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54459123-BB9E-F4EA-BD5F-CA00B35DCD3D</attributeRef>
+<attributeRef>C64103B0-A33B-DF91-4F80-3A8A5044F698</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

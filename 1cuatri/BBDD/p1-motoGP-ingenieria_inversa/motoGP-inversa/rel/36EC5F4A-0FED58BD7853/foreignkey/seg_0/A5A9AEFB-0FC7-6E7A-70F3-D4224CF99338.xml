@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A5A9AEFB-0FC7-6E7A-70F3-D4224CF99338" containerWithKeyObject="A6363386-DF5D-8C65-CDD2-4B8DC99EE4DD" localFKIndex="DDA84B92-B2BD-981F-633A-90A6779A2D07" name="TIEMPOS_TRAMO_FK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD4457</sourceObjSchema>
+<sourceObjName>TIEMPOS_TRAMO_FK</sourceObjName>
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 23:14:29 UTC</createdTime>
+<ownerDesignName>motoGP-inversa</ownerDesignName>
+<referredTableLongName>UBD4457.TRAMO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5E33FFDC-5CCB-7333-DE5F-2CF9BA19CD0E</referredTableID>
+<keyObject>926813DD-7198-39F5-2689-F9A1FF400FDD</keyObject>
+<referredKeyID>926813DD-7198-39F5-2689-F9A1FF400FDD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DE381BD-96A4-99A4-DA51-4D9BA7208D97" name="PILOTO_PILOTO">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PILOTO_nombre" id="47214996-6D4D-D5D5-FCCD-935C14EAF00C">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2B13114-C74B-C4B9-3A7A-E07B878C5D97" referredColumn="2DF503B0-251E-044F-7960-E9D1F4539565"/>
+</associations>
+</Column>
+<Column name="PILOTO_nombre1" id="1C19C5D8-DFDC-F86C-A66F-CD666082A783">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA1DF306-CCBB-547F-DE0E-2A87DF0114A8" referredColumn="2DF503B0-251E-044F-7960-E9D1F4539565"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="101AE680-0842-7CF2-FA1C-7FDA48E83C72" name="PILOTO_PILOTO_PK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47214996-6D4D-D5D5-FCCD-935C14EAF00C"/>
+<colUsage columnID="1C19C5D8-DFDC-F86C-A66F-CD666082A783"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FFE9FEE-CB88-CEA1-5D49-FBB736AED6EE" name="PILOTO_PILOTO_PILOTO_FK">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>C19725EE-5B7F-0F76-A49A-6C2226D2C351</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47214996-6D4D-D5D5-FCCD-935C14EAF00C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50955A27-F7C4-237A-5DBE-5F31290C2A57" name="PILOTO_PILOTO_PILOTO_FKv1">
+<createdBy>roz</createdBy>
+<createdTime>2023-10-07 17:08:57 UTC</createdTime>
+<generatorID>C19725EE-5B7F-0F76-A49A-6C2226D2C351</generatorID>
+<ownerDesignName>p1-motogp-roz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C19C5D8-DFDC-F86C-A66F-CD666082A783"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
